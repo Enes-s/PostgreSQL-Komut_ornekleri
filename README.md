@@ -1,5 +1,6 @@
---- SQL-1_PATİKA
---- dvdrental
+# SQL-1_PATİKA
+
+## dvdrental
 
 
 1-)Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
