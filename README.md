@@ -1,6 +1,6 @@
 # SQL-1_PATİKA
 
-## --- dvdrental 
+##dvdrental
 
 
 
