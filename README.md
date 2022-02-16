@@ -1,6 +1,6 @@
 # SQL-1_PATİKA
 
-                                                                     ** dvdrental **
+                                                                # The largest heading    dvdrental 
 
 
 1-)Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
