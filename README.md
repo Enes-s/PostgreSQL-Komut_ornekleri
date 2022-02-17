@@ -86,6 +86,7 @@ WHERE  rental_rate IN (0.99 , 2.99 , 4.99) AND replacement_cost IN (12.99 , 15.9
 ```
 
 ÖDEV 3 
+LIKE - ILIKE
 
 1-) Country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
 
@@ -126,6 +127,7 @@ WHERE title ILIKE 'C%' AND 	length >90 AND rental_rate=2.99;
 
 
 ÖDEV 4 
+DISTINCT-COUNT
 
 1-) Film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
 
