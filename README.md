@@ -86,6 +86,7 @@ WHERE  rental_rate IN (0.99 , 2.99 , 4.99) AND replacement_cost IN (12.99 , 15.9
 ```
 
 ÖDEV 3 
+
 LIKE - ILIKE
 
 1-) Country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız.
@@ -127,6 +128,7 @@ WHERE title ILIKE 'C%' AND 	length >90 AND rental_rate=2.99;
 
 
 ÖDEV 4 
+
 DISTINCT-COUNT
 
 1-) Film tablosunda bulunan replacement_cost sütununda bulunan birbirinden farklı değerleri sıralayınız.
@@ -186,3 +188,48 @@ FROM city
 WHERE city ILIKE '%R';
 
 ```
+
+
+ÖDEV 5 
+
+ORDER BY - LIMIT - OFFSET 
+
+1-) Film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en uzun (length) 5 filmi sıralayınız.
+
+```SQL
+
+SELECT * 
+FROM film 
+WHERE title LIKE '%n'
+ORDER BY length DESC 
+LIMIT  5 ;
+
+```
+
+2-) Film tablosunda bulunan ve film ismi (title) 'n' karakteri ile biten en kısa (length) ikinci(6,7,8,9,10) 5 filmi(6,7,8,9,10) sıralayınız.
+
+```SQL
+
+SELECT * 
+FROM film 
+WHERE title LIKE '%n' 
+ORDER BY length 
+OFFSET 5
+LIMIT  5;
+
+```
+
+
+
+3-) Customer tablosunda bulunan last_name sütununa göre azalan yapılan sıralamada store_id 1 olmak koşuluyla ilk 4 veriyi sıralayınız.
+
+```SQL
+
+SELECT last_name
+FROM customer
+WHERE store_id = 1 
+ORDER BY  last_name DESC
+LIMIT  4;
+
+```
+
