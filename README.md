@@ -1,4 +1,4 @@
-# SQL-1_PATİKA
+# PostgreSQL_PATİKA
 
 ## dvdrental
 
