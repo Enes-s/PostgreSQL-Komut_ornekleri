@@ -503,3 +503,31 @@ RETURNING *;
 ```
 
 
+
+ÖDEV 9
+INNER JOIN
+
+
+1-) City tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+
+
+```
+
+
+2-) Customer tablosu ile payment tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+
+
+```
+
+
+3-) Customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+```SQL
+
+
+```
+
