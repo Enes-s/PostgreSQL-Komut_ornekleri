@@ -664,7 +664,7 @@ FROM actor
 )
 INTERSECT ALL
 (
-SELECT firs_name
+SELECT first_name
 FROM customer
 );
 
